@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.posts {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.post {
+    width: 300px;
+    min-height: 150px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    padding: 10px;
+    /* background-color: grey; */
+}
+
+.post-blue {
+    background-color: #8B4513;
+    border-color: #8B4513;
+    color: white;
+}
+
+.post__title, .find {
+    font-weight: 700;
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.find__block {
+    padding: 20px;
+}
+
+.find-btn {
+    width: 100px;
+    height: 100%;
+    border-radius: 5px;
+}
